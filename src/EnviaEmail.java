@@ -34,7 +34,7 @@ public class EnviaEmail {
 			email.setHostName("smtp.gmail.com");
 		    email.setSmtpPort(465);
 		    email.setSSL(true);
-		    email.setAuthentication("danielsantosr.rj@gmail.com", "Clau250788+");
+		    email.setAuthentication("email", "password");
 		    email.setCharset("UTF-8");			
 
 			email.addTo("danielsantosr.rj@gmail.com", "John Doe");
